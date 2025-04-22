@@ -1,6 +1,5 @@
 import React from 'react';
 import ucdLogo from '../assets/images/ucd.png';
-import aisLogo from '../assets/images/ais.png';
 import aeiLogo from '../assets/images/aei.png';
 import ensajLogo from '../assets/images/logo_ensaj_upscaled.png';
 
@@ -8,7 +7,6 @@ const SponsorsSection: React.FC = () => {
   const sponsors = [
     { name: "UCD", logo: ucdLogo },
     { name: "ENSAJ", logo: ensajLogo },
-    { name: "App In Sciences", logo: aisLogo },
     { name: "AEI", logo: aeiLogo },
   ];
 
